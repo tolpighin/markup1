@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="description">
+    <meta name="keyword" content="keyword">
+    <meta name="viewport" content="width=device-width, initial scale=1.0">
+    <link rel="favicon icon" href="/favicon.icon">
+    <title>Task3</title>
+</head>
+<body>
+    <form action="#" method="post">
+        <p>Name</p>
+        <p><input type="text" name="" value="" placeholder="Enter your name"></p>
+
+        <p>Email</p>
+        <p><input type="email" placeholder="Enter your email"></p>
+
+        <p>Sex</p>
+        <p><input type="radio" name="sex" checked="checked"> Male <input type="radio" name="sex"> Female </p>
+
+        <p>Current status</p>
+        <p><input type="checkbox" value="student" checked="checked"> Student</p>
+        <p><input type="checkbox" value="Emloyed"> Emloyed</p>
+        <p><input type="checkbox" value="Unemploed"> Unemploed</p>
+
+        <p>Month and Year of birth</p>
+        <p>
+            <select>
+                <option>January</option>
+                <option>February</option>
+                <option>March</option>
+                <option>April</option>
+                <option>May</option>
+                <option>June</option>
+            </select>
+            <select>
+                <option>2013</option>
+                <option>2014</option>
+                <option>2015</option>
+                <option>2016</option>
+            </select></p>
+
+        <p>Skils and Technologies</p>
+
+        <style>
+            .skils {
+                overflow-y: hidden;
+            }
+        </style>
+        <p>
+            <select size="10" multiple class="skils" >
+                <optgroup label="Tech skils">
+                    <option value="">HTML</option>
+                    <option value="">CSS</option>
+                    <option value="">JAVASCRIPT</option>
+                    <option value="">git</option>
+                </optgroup>
+                <optgroup label="Soft skils">
+                    <option value="">Time management</option>
+                    <option value="">Proactivity</option>
+                    <option value="">Teamwork</option>
+                    <option value="">Leadership</option>
+                </optgroup>
+            </select>
+        </p>
+
+        <p>Photo</p>
+        <p><input type="file" name="Chooce file"></p>
+
+        <p>Coment</p>
+        <p>
+            <textarea cols="40" rows="4" placeholder="enter comment" autofocus></textarea>
+        </p>
+        <p><input type="submit" value="Save"></p>
+    </form>
+
+</body>
+</html>

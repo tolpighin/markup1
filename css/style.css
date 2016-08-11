@@ -1,4 +1,4 @@
-table {
+table {                                      /*task1*/
     border-collapse: collapse;
     width: 700px;
     height:800px;
@@ -18,3 +18,8 @@ table {
         .blue {
             background-color: #1125ff;
         }
+
+                                            /*task3*/
+.list-style-type {
+    list-style-type: none;
+}
