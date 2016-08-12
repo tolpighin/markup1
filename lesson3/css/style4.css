@@ -1,0 +1,11 @@
+li a[class='yandex'] {
+    color: #f70;
+}
+li.icon:after {
+    content: '\21F1';
+    color: #f70;
+    margin-left: 7px;
+}
+li a[class='gray'] {
+    color: #aaa;
+}

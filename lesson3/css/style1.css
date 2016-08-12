@@ -1,0 +1,64 @@
+
+                             /*task1*/
+#wrapper {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+    h1 {
+        color:#FFA600;
+        text-align: right;
+    }
+    p:first-letter {
+        color: #FF0000;
+    }
+    p em {
+        background: #008100;
+        color: #fff; 
+    }
+    
+    #garden h2 {
+        color: #FFA600;
+    }
+    #garden ul li {
+        font-weight: bold;
+        }
+
+        .fruit-garden li {
+            font-weight: normal !important;
+            color: #86939B;
+        }
+
+
+    #storage h2 {
+        color: #0000FF;
+    }
+    #storage ul li {
+        font-weight: bold;
+    }
+        .vegetables li {
+            color: #FF061E;
+            font-weight: normal !important;
+        }
+        .fruit-storage li {
+            color: #137E14;
+            font-weight: normal !important;
+        }
+
+    table {
+        border: 1px solid #000;
+        width: 400px;
+    }
+    table tr td {
+        border: 1px solid #000;
+        text-align: center;
+        font-weight: bold;
+    }
+        .name {
+            color: #FFA600;
+        }
+        .green {
+            background: #008100;
+            color: #fff;
+        }
+                                   /*task2*/

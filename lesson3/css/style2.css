@@ -1,0 +1,12 @@
+article p:first-child {
+    text-transform: uppercase;
+}
+article p:last-child {
+    color: #ff121d;
+}
+ul li:first-child {
+    color: red;
+}
+ul li:last-child {
+    color: green;
+}

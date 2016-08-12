@@ -1,0 +1,7 @@
+table tr:nth-child(2n+2) {
+    background: #ddebf7;
+}
+
+.brown {
+    background: #f2f2de;
+}
