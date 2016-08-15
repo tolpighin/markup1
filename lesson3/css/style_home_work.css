@@ -1,0 +1,130 @@
+body {
+    background: #F9F9F9;
+}
+
+    #wrapper {
+        background: #fff;
+        border-left: 1px solid #DBDBDB;
+        border-right: 1px solid #DBDBDB;
+        box-shadow: 0 0 5px ;
+        max-width: 1060px;
+        margin: 0 auto;
+        font-family: "Open Sans";
+        color: #807E7E;
+    }
+        .block_center {
+            width: 91.13%;
+            margin: 0 auto;
+            padding-top: 40px;
+        }
+        .block_center:last-child {
+            padding-bottom: 40px;
+        }
+            header, article, footer {
+                width: 100%;
+            }
+            header {
+
+            }
+                .top_header p {
+                    padding: 0 0 40px 0;
+                }
+                .nav_header {
+                    background: #4F4F4F;
+                }
+                .nav_header ul li {
+                    display: inline-block;
+                    border-left: 1px solid #4F4F4F;
+                    border-right: 1px solid #4F4F4F;
+                    transition: all 1s;
+                    box-sizing: border-box;
+                }
+                .nav_header a {
+                    display: block;
+                    color: #fff;
+                    padding: 15px 35px;
+                    font-size: 0.95em;
+                    text-decoration: none;
+
+
+                }
+                .nav_header li:hover {
+                    background: #464646;
+                    border-left: 1px solid #838383;
+                    border-right: 1px solid #838383;
+                    box-sizing: border-box;
+                }
+
+            article {
+                overflow: hidden;
+            }
+                aside {
+                    float: left;
+                    width: 24.84%;
+                    margin-right: 5.175%;
+                }
+                    aside menu ul li {
+                        border: 1px solid #C8C8C8;
+                    }
+                    aside menu ul li:nth-child(1n-1) {
+                        border-top: none;
+                    }
+                    aside menu ul li:first-child {
+                        border-top: 1px solid #C8C8C8;
+                    }
+
+                    aside menu ul li a {
+                        box-sizing: border-box;
+                        padding: 10px 20px;
+                        color: #807E7E;
+                        display: block;
+                        text-decoration: none;
+                    }
+                    aside menu ul li a:hover {
+                        background: #f9f9f9;
+                        color: #000;
+                    }
+                section {
+                    float: right;
+                    width: 70.08%;
+                }
+                    section .img_bisycle {
+                        border:1px solid #C8C8C8;
+                        box-sizing: border-box;
+                        width: 100%;
+                    }
+                    .img_bisycle img {
+                        position: relative;
+                        display: block;
+                        margin: 50px auto;
+                    }
+                    section p {
+                        margin-top:40px;
+                        line-height: 1.5;
+                    }
+
+            footer {
+                background: #e1e1e1;
+                overflow: hidden;
+            }
+                    .nav_footer ul {
+                        float: left;
+                    }
+                    .nav_footer ul li {
+                        float: left;
+                    }
+                    .nav_footer ul li a {
+                        display: block;
+                        text-decoration: none;
+                        color: #000;
+                        padding: 15px 35px;
+                    }
+                    .nav_footer ul li a:hover {
+                        text-decoration: underline;
+                    }
+                    footer p {
+                        display: table;
+                        float: right;
+                        padding: 15px 35px;
+                    }
+
