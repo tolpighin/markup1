@@ -1,0 +1,49 @@
+
+#red:checked~label[for='red'] {
+    color: rgba(255,0,0,0.6);
+    text-decoration: underline;
+}
+#red:checked~.red {
+    font-family: Verdana;
+    font-size: 1em;
+    font-weight: 600;
+    color: #fff;
+    background: red;
+    padding: 5px 15px;
+    border-radius: 5px;
+}
+
+#green:checked~label[for='green'] {
+    color: #24ff19;
+    text-decoration: underline;
+}
+#green:checked~.green {
+    font-family: Verdana;
+    font-size: 1em;
+    font-weight: 600;
+    color: #f9ffff;
+    background: #4aff18;
+    padding: 5px 15px;
+    border-radius: 5px;
+}
+
+#blue:checked~label[for='blue'] {
+    color: #0b05ff;
+    text-decoration: underline;
+}
+#blue:checked~.blue {
+    font-family: Verdana;
+    font-size: 1em;
+    font-weight: 600;
+    color: #f9ffff;
+    background: #0c0dff;
+    padding: 5px 15px;
+    border-radius: 5px;
+}
+
+
+
+.section { background:#ccc; }
+.layer { background:#ddd; }
+.section:hover img { border:2px solid #333; }
+.section:hover .layer { border:2px solid #F90; }
