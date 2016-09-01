@@ -1,0 +1,32 @@
+.pagination {
+    background: #FAFAFA; 
+    display: table;
+    text-transform: uppercase;
+    font-family: 'Economica', sans-serif;
+    margin: 10px auto;
+    font-size: 0.9em;
+}
+    .pagination ul li {
+        display: inline-block;
+    }
+        .pagination ul li a {
+            text-decoration: none;
+            padding: 5px 8px;
+            display: block;
+            color: #C13CCD;
+        }
+        .pagination ul li a span {
+            font-size: 1.2em;
+        }
+        .pagination ul li a.paging:hover {
+            color: #27a7ff;
+        }
+        .pagination ul li a.number {
+            border: 1px solid #DDDDDD;
+            border-radius: 5px;
+        }
+        .pagination ul li a.number:hover {
+            background: #A13AD1;
+            border: 1px solid #7412B5;
+            color: #fff;
+        }

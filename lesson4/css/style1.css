@@ -1,0 +1,31 @@
+.bg_menu {
+    width: 100%;
+    background: #A64DFF;
+    box-shadow: 0 0 5px 5px #EDEEEC;
+    margin-top: 10px;
+}
+    .block_center {
+        max-width: 900px;
+        margin: 0 auto;
+        /*border: 1px solid;*/
+        text-align: center;
+    }
+
+        menu ul li {
+            display: inline-block;
+            font-size: 2em;
+        }
+            menu ul li a {
+                display: block;
+                color: #fff;
+                font-family: 'Economica', sans-serif;
+                font-weight: bolder;
+                text-decoration: none;
+                text-transform: uppercase;
+                padding: 10px 21px;
+            }
+            menu ul li a:hover {
+                background: #EEEEEE;
+                color: #9D9C9E;
+                box-shadow: 0 0 5px  #E5E5E5;
+            }

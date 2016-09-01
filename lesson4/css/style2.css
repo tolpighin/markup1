@@ -1,0 +1,38 @@
+.bg_menu {
+    width: 100%;
+    background: #A64DFF;
+    box-shadow: 0 0 5px 5px #EDEEEC;
+    margin-top: 10px;
+}
+    .block_center {
+        max-width: 900px;
+        margin: 0 auto;
+        text-align: center;
+        overflow: hidden;
+    }
+        menu ul {
+            float: left;
+        }
+            menu a {
+                display: block;
+                font-size: 1.3em;
+                color: #fff;
+                font-family: 'Economica', sans-serif;
+                text-decoration: none;
+                text-transform: uppercase;
+                padding: 10px 20px;
+            }
+            menu a:hover {
+                background: #EEEEEE;
+                color: #9D9C9E;
+                box-shadow: 0 0 5px  #E9E9E9;
+            }
+            menu ul li {
+                float: left;
+            }
+                menu ul li a {
+
+                }
+            menu p {
+                float: right;
+            }

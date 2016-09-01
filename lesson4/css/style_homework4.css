@@ -1,0 +1,166 @@
+body {
+    font-family: Tahoma;
+}
+
+.clearfix:after {
+    clear: both;
+    content: "";
+    display: table;
+}
+
+    .bg_header {
+        background: linear-gradient(180deg , #128AA7 0, #128AA7 15%, #13CEE1 16%, #FFFFFF 100% );
+    }
+        .block_center {
+            background: #fff;
+            max-width: 1000px;
+            margin: 0 auto;
+            box-shadow: 12px  0 15px -12px #104176,
+                        -12px 15px 15px -12px #104176;
+        }
+            header {
+                padding: 20px 30px 0;
+                overflow: hidden;
+            }
+                .logo {
+                    float: left;
+                }
+                    .logo img {
+                        vertical-align: bottom;
+                    }
+                .header_right {
+                    float: right;
+                }
+                    .contacts {
+                        margin-bottom: 50px;
+                        margin-left: 250px;
+                    }
+                    .header_right p {
+                        color: #128aa7;
+                        font-size: 0.75em;
+                    }
+                    .header_right ul li {
+                        float: left;
+                        text-align: center;
+                    }
+                    .header_right ul li a {
+                        margin: 0 auto;
+                        display: block;
+                        font-size: 0.625em;
+                        color: #128aa7;
+                        margin: 0 10px ;
+                    }
+
+    .bg_content {
+        background: linear-gradient(180deg, #40C5D3 0, #1495B3 10%, #1495B3 100%);
+    }
+        .block_center {
+            border-bottom: 3px solid #031d28;
+        }
+            .img {
+                border-top: 1px solid #128aa7;
+            }
+            .img img{
+                vertical-align: bottom;
+            }
+            menu {
+                background: #343434;
+                float: left;
+                width: 100%;
+                box-shadow: 0 7px 14px -3px black;
+            }
+                .nav {
+                    width: 100%;
+                }
+                .nav li {
+                    float: left;
+                    display: block;
+                    position: relative;
+                }
+                .nav li a {
+                    display: block;
+                    color: #fff;
+                    padding: 10px 29px;
+                    text-decoration: none;
+                    /*transition: all 0.5s;*/
+                }
+                .nav li a:hover {
+                    color: red;
+                }
+                    .nav ul {
+                        position: absolute;
+                        background: #343434;
+                        left:-9999px;
+                        opacity: 0;
+                    }
+                    .nav ul li {
+                        float: none;
+                        border-bottom: 1px solid #fff;
+                    }
+                    .nav li:hover ul {
+                        left: 0;
+                        opacity: 1;
+                    }
+                    .nav li:hover .free_menu {
+                        left:-99999px;
+                    }
+                    .nav ul li:hover .free_menu {
+                        left: 165px;
+                        top: 30px;
+                    }
+                    .nav li:hover a {
+                        color: red;
+                        display: block;
+                    }
+                    .nav li:hover ul li a:hover
+                    {
+                        background: #343434;
+                        transform: scale(1.05);
+                    }
+
+            section {
+
+            }
+                section aside {
+                    background: #EDEEF0;
+                    border-left: 1px solid #C7CACF;
+                    border-right: 1px solid #C7CACF;
+                    text-align: justify;
+                    padding: 15px;
+                    box-sizing: border-box;
+                }
+                    section h2 {
+                        font-size: 1.125em;
+                        color: #424c43;
+                        margin-bottom: 15px;
+                        text-transform: uppercase;
+                    }
+                    section aside p {
+                        font-size: 0.875em;
+                        color: #424c43;
+                        line-height: 1.5;
+                    }
+
+                    aside.left, article, aside.right {
+                        float: left;
+                    }
+                    section aside.left {
+                        width: 21%;
+                        margin-right: 6%;
+                    }
+
+                    section aside.right {
+                        width: 21%;
+                        margin-left: 6%;
+                    }
+                    section article {
+                        width: 46%;
+                        padding-top: 15px;
+                    }
+
+        footer {
+            color: #fff;
+            font-size: 0.75em;
+            text-align: center;
+            padding: 10px 0;
+        }
