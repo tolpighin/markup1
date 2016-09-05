@@ -1,0 +1,105 @@
+@font-face {
+     src: url('../fonts/ofont.ru_Trebuchet MS.ttf');
+    font-family: "Trebuchet MS";
+}
+
+.wrapper {
+    font-family: "Trebuchet MS";
+    background: #ee8129;
+    border: 4px solid #ee8129;
+    border-radius: 5px;
+    box-sizing: border-box;
+    width: 295px;
+    margin: 15px auto;
+    text-align: center;
+    box-shadow: 0 0 15px 0 #2b2f2f;
+}
+    header h2 {
+        font-size: 1.5em;
+        color: #fff;
+        padding: 25px 0;
+    }
+    
+    .main_block {
+        background: #fff;
+        box-sizing: border-box;
+        width: 100%;
+        padding: 20px 15px 25px 15px;
+    }
+        .top {
+            position: relative;
+            margin-bottom: 25px;
+            height:110px;
+            margin-bottom: 40px;
+        }
+            .top h3 {
+                font-size: 1.5em;
+                font-weight: 100;
+                color: #3f4042;
+            }
+            .top>div {
+                display: inline-block;
+                color: #35495a;
+            }
+                .bax{
+                    font-size: 1.3em;
+                    position: absolute;
+                    top:50px;
+                    left: 16%;
+                }
+                .number {
+                    position: absolute;
+                    top:50px;
+                    left:22%;
+                    font-size: 4.7em;
+                }
+                .month {
+                    position: absolute;
+                    top: 110px;
+                    left: 56%;
+                    font-size: 1.125em;
+                }
+
+            .nav_main {
+                text-align: left;
+                margin-bottom: 25px;
+            }
+                .nav_main ul li {
+                    margin-bottom: 2px;
+                }
+                .nav_main ul li:nth-child(2n+1) {
+                    background: #edf5fd;
+                }
+                .nav_main li:nth-child(2n+2) {
+                    background: #f5f5f6;
+                }
+
+                .nav_main ul li:before {
+                    content: url("../images/--.png");
+                    margin-left: 30px;
+                }
+                .nav_main ul li a {
+                    display: inline-block;
+                    margin-left: 10px;
+                    text-decoration: none;
+                    color: #888c94;
+                    font-size: 0.95em;
+                    font-weight:100;
+                    padding: 10px 0;
+                }
+            .bottom input {
+                background: #ee8129;
+                color: #fff;
+                font-family: "Trebuchet MS";
+                font-size: 0.875em;
+                font-weight: 600;
+                width: 100%;
+                border: none;
+                border-bottom: 2px solid #b3560b;
+                padding: 10px;
+                border-radius: 5px;
+                box-sizing: border-box;
+            }
+            .bottom input:hover {
+                border-bottom: 2px solid #fff;
+            }

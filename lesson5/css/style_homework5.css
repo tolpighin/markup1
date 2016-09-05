@@ -1,0 +1,207 @@
+.wrapper {
+    position: relative;
+    font-family: Tahoma;
+    background: url("../images/bg_img.png") no-repeat;
+    height: 1080px;
+}
+        header {
+            background: #085393;
+            overflow: hidden;
+        }
+        header a, header p {
+            color: #fff;
+            font-size: 0.875em;
+        }
+
+        .ref {
+            background: linear-gradient(180deg, #51b1dc 0%, #2e7ac4 100%);
+            float: right;
+            padding: 10px;
+            margin-right: 30px;
+        }
+            .ref a:hover {
+                /*color: red;*/
+                text-decoration: none;
+            }
+        .flag {
+            float: right;
+            margin: 0 15px;
+        }
+            .flag img {
+                display: inline-block;
+                margin-top: -2px;
+                vertical-align: middle;
+            }
+            .flag a {
+                display: inline-block;
+                text-decoration: none;
+                margin-top: 10px;
+                margin-left: 5px ;
+            }
+            .flag a:hover {
+                color: red;
+            }
+        .top_nav {
+            float: right;
+        }
+            .top_nav li {
+                float: left;
+            }
+            .top_nav ul li:last-child {
+                /*border-right: 1px solid #4eabda;*/
+                background: url("../images/images/brd_right_03.png") no-repeat right;
+            }
+            .top_nav li:hover a {
+                background: #4eabda;
+                color: #fff;
+            }
+            .top_nav ul li a {
+                text-decoration: none;
+                display: block;
+                padding: 10px 15px;
+                color: #60b5ed;
+            }
+
+   .block_form {
+
+       position: fixed;
+       top:0;
+       bottom: 0;
+       left:0;
+       right: 0;
+       margin: auto;
+       max-width: 560px;
+       height: 615px;
+       text-align: center;
+   }
+        .head {
+            background: rgba(0,0,0,0.6);
+            color: #fff;
+            font-size: 1.5em;
+            margin-bottom: 3px;
+            padding: 20px 0;
+        }
+        section {
+            background: rgba(0,0,0,0.6);
+            padding-top: 30px !important;
+        }
+            section .facebook {
+                overflow: hidden;
+                width: 276px;
+                margin: 0 auto 30px auto;
+            }
+            section .facebook div {
+                float: left;
+                background: linear-gradient(180deg, #3E5692 0%, #324063 100%);
+            }
+                .facebook1 {
+                    border-top-left-radius: 3px;
+                    border-bottom-left-radius: 3px;
+                    border-right: 1px solid #203C6E;
+                    border-top: 1px solid #758AB9;
+                    width: 15%;
+                }
+                .facebook1:hover {
+                    border: none;
+                }
+                .facebook1 a {
+                    color: #fff;
+                    display: block;
+                    text-decoration: none;
+                    font-size: 1.2em;
+                    font-weight: 600;
+                    padding: 10px 14px 9px 14px;
+
+                }
+                .facebook2 {
+                    border-top-right-radius: 3px;
+                    border-bottom-right-radius: 3px;
+                    border-left: 1px solid #758AB9;
+                    border-top: 1px solid #758AB9;
+                    width: 84%;
+                }
+                .facebook2:hover {
+                    border: none;
+                }
+                .facebook2 a {
+                    display: block;
+                    color: #fff;
+                    text-decoration: none;
+                    font-size: 0.875em;
+                    font-weight: 600;
+                    padding: 12px;
+                }
+                .facebook2 a span {
+                    color: #fff;
+                    font-weight: 100;
+                    font-size: 1em;
+
+                }
+
+
+            section span {
+                padding: 0 10px;
+                color: #999;
+                font-size: 0.875em;
+                vertical-align: top;
+
+            }
+            hr {
+                display: inline-block;
+                box-shadow: 0 2px 0 0 #000;
+                color: #fff;
+                width: 118px;
+            }
+            section form input[placeholder="First Name"] {
+                background: #1b5288;
+                border: none;
+                box-sizing: border-box;
+                box-shadow: 0 0 7px 3px #5189B4;
+                color: #fff;
+                margin-top: 30px;
+                margin-bottom: 19px;
+                font-size: 0.875em;
+                padding: 10px 20px;
+                width: 276px;
+                }
+            section .input_form {
+                background: #100f0f;
+                border: none;
+                box-sizing: border-box;
+                margin-bottom: 19px;
+                padding: 10px 20px;
+                font-size: 0.875em;
+                width: 276px;
+                color: #ccc;
+            }
+                form .check {
+                    margin: 0 auto;
+                    width: 276px;
+                    color: #ccc;
+                    font-size: 0.875em;
+                    margin-bottom: 20px;
+                }
+                form .checkbox {
+                    margin-left: -60px;
+                    margin-right: 20px;
+                }
+                form input[type='submit'] {
+                    background: linear-gradient(180deg, #67c6e6 0%, #2E7AC4 100%);
+                    border:none;
+                    border-radius: 3px;
+                    color: #fff;
+                    font-size: 0.875em;
+                    padding: 10px 15px;
+                    margin-bottom: 20px;
+                }
+                form input[type='submit']:hover {
+                    color: red;
+                }
+                form .p1, section .p2 {
+                    color: #ccc;
+                    font-size:0.7em;
+                    line-height: 1.5;
+                }
+                form .p2 {
+                    padding-bottom: 20px;
+                }

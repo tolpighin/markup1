@@ -1,0 +1,82 @@
+@font-face {
+    src: url(../fonts/ImpactRegular.ttf);
+    font-family: Impact;
+}
+
+.wrapper {
+    background: #1aa4ff;
+    position: relative;
+    margin-top: 20px;
+}
+
+    .block_center {
+        max-width: 900px;
+        margin: 0 auto;
+    }
+        .navig {
+            position: relative;
+            background:  #1aa4ff;
+        }
+            .navig ul li {
+                display: inline-block;
+            }
+            .navig ul li a {
+                color: #fff;
+                font-family: Impact;
+                font-size: 1.2em;
+                display: block;
+                text-decoration: none;
+                padding: 10px 10px;
+            }
+                .submenu {
+                    width: 100%;
+                    position: absolute;
+                    background: #eee;
+                    left: 0;
+                    top:100%;
+                    display: none;
+                    box-shadow: 0 3px 5px 0 #d4d4d4;
+                }
+                    li .submenu li a {
+                        color: #878988;
+                        font-family: Arial;
+                        font-weight: 100;
+                        padding: 10px 7px;
+                    }
+            .navig ul>li:hover .submenu {
+                display: block;
+
+            }
+            .navig ul>li.shadow:hover {
+                background: #eee;
+                box-shadow: 0 -2px  5px 0 #d4d4d4;
+
+                color: red;
+            }
+            .navig ul li a:hover {
+                color: red;
+            }
+            .submenu ul li a:hover {
+                color: red;
+
+            }
+            li.submenu li:hover {
+                box-shadow: none;
+            }
+
+/*.background_sub {*/
+    /*width: 100%;*/
+    /*top:100%;*/
+    /*position: absolute;*/
+    /*!*display: none;*!*/
+    /*background: #eee;*/
+    /*height: 20px;*/
+/*}*/
+    /*.navig ul li:hover .background_sub {*/
+        /*display: inline-block;*/
+    /*}*/
+
+.content {
+    height: 100px;
+    background: #97f9fa;
+}
