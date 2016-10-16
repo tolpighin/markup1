@@ -1,0 +1,119 @@
+@font-face {
+    src: url('../fonts/ofont.ru_Trebuchet MS.ttf');
+    font-family: "Trebuchet MS";
+}
+body {
+    font-family: "Trebuchet MS";
+}
+    .wrapper {
+        background: url("../images/bg.png");
+    }
+        .block_center {
+            max-width:1020px;
+            margin: 0 auto;
+            overflow: hidden;
+            padding-bottom: 70px;
+        }
+            .head h1 {
+                color: #3170a8;
+                font-size: 2.45em;
+                text-align: center;
+                text-transform: uppercase;
+                padding: 50px 0;
+            }
+            .head h1 span {
+                color: #ee8129;
+            }
+            .block_center aside {
+                float: left;
+                max-width: 510px;
+            }
+                .corner {
+                    margin-top: 33px;
+                    margin-left: 23px;
+                }
+
+             aside div {
+                 float: left;
+             }
+                .woman {
+                    width: 99px;
+                    vertical-align: bottom;
+                }
+                .man {
+                    width: 99px;
+                    margin-left: 30px;
+                    vertical-align: bottom;
+                }
+                .say {
+                    overflow: hidden;
+                    background: #fff;
+                    padding: 15px;
+                    box-sizing: border-box;
+                    margin-left: 0px;
+                    width: 340px;
+                }
+
+                    .customer {
+                        color: #3070a8;
+                        font-size: 0.8em;
+                        font-style: italic;
+                        width: 100%;
+                        overflow: hidden;
+                        border-bottom: 1px dashed;
+                    }
+                        div.name {
+                            float: left;
+                            margin-bottom: 15px;
+                        }
+                        div.status {
+                            float: right;
+                        }
+                    .talk {
+                        color: #666666;
+                        margin-top: 15px;
+                        font-size: 0.8em;
+                    }
+
+
+.first {
+    font-size: 3em;
+}
+.first::before {
+    content: "$";
+    font-size: 0.5em;
+    margin-right: 20px;
+    vertical-align: top;
+}
+.first::after {
+    content: "surprise";
+    font-size: 0.5em;
+    margin-left: 20px;
+    vertical-align: top;
+}
+
+
+.d1 {
+    position: relative;
+    width: 300px;
+    height: 100px;background: pink;
+}
+.d2 {
+    position: absolute;
+    width: 100px;
+    height: 30px;
+    background: blue;
+    top:130px;
+    z-index: 2;
+}
+.d1:hover .d2 {
+    z-index: 4;
+}
+.d3 {
+    position: relative;
+    z-index: 3;
+    width: 300px;
+    height: 300px;
+    background: gray;
+
+}

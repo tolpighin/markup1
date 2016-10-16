@@ -69,50 +69,50 @@ body {
                 width: 100%;
                 box-shadow: 0 7px 14px -3px black;
             }
-                .nav {
+                .navig {
                     width: 100%;
                 }
-                .nav li {
+                .navig li {
                     float: left;
                     display: block;
                     position: relative;
                 }
-                .nav li a {
+                .navig li a {
                     display: block;
                     color: #fff;
                     padding: 10px 29px;
                     text-decoration: none;
                     /*transition: all 0.5s;*/
                 }
-                .nav li a:hover {
+                .navig li a:hover {
                     color: red;
                 }
-                    .nav ul {
+                    .navig ul {
                         position: absolute;
                         background: #343434;
                         left:-9999px;
                         opacity: 0;
                     }
-                    .nav ul li {
+                    .navig ul li {
                         float: none;
                         border-bottom: 1px solid #fff;
                     }
-                    .nav li:hover ul {
+                    .navig li:hover ul {
                         left: 0;
                         opacity: 1;
                     }
-                    .nav li:hover .free_menu {
+                    .navig li:hover .free_menu {
                         left:-99999px;
                     }
-                    .nav ul li:hover .free_menu {
+                    .navig ul li:hover .free_menu {
                         left: 165px;
                         top: 30px;
                     }
-                    .nav li:hover a {
+                    .navig li:hover a {
                         color: red;
                         display: block;
                     }
-                    .nav li:hover ul li a:hover
+                    .navig li:hover ul li a:hover
                     {
                         background: #343434;
                         transform: scale(1.05);

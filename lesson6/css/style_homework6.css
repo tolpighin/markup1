@@ -1,0 +1,702 @@
+.clearfix:after {
+    clear: both;
+    content: "";
+    display: table;
+}
+
+.block_center {
+    position: relative;
+    overflow: hidden;
+    max-width: 908px;
+    margin: 0 auto;
+
+}
+    header {
+        overflow: hidden;
+        margin: 20px 0 10px 0;
+    }
+    .telephone {
+        float: left;
+    }
+            .telephone p.img_tel {
+                padding-top: 4px;
+            }
+            .telephone p {
+                font-family: Arial;
+                color: #5e696d;
+                float: left;
+                font-size: 1.125em;
+                padding-top: 5px;
+            }
+    .registration {
+        border-radius: 5px;
+        box-shadow: 3px 3px 5px 0 #c1c1c1;
+        font-family: "Lucida Sans Unicode";
+        float: left;
+        margin-left: 15px;
+        background: linear-gradient(180deg, #1f6787 0%, #1f6787 100%);
+    }
+            .registration p {
+                float: left;
+                padding: 3px 10px 3px 0;
+            }
+            .registration p.img_log {
+                padding: 2px 5px 0 5px;
+
+            }
+             .fogot a {
+                color: #bfbfbf;
+                 font-size: 0.7em;
+                 margin-left: 10px;
+             }
+             .fogot a:hover {
+                 text-decoration: none;
+             }
+             .reg a {
+                color: #fff;
+                 font-size: 0.7em;
+                 text-decoration: none;
+                 padding-left: 7px;
+                 border-left: 1px solid #fff;
+             }
+             .reg a:hover {
+                 text-decoration: underline;
+             }
+            .registration input[type='text'], .registration input[type='password'] {
+                width: 113px;
+                height: 18px;
+                font-size: 0.7em;
+                box-sizing: border-box;
+                padding-left: 3px;
+            }
+            .registration input[type='password'] {
+
+            }
+            .registration input[type='submit'] {
+                background: none;
+                border: none;
+                color: #fff;
+                padding-left: 0;
+                padding-right: 0;
+                cursor: pointer;
+            }
+            .registration input[type='submit']:hover {
+                color: red;
+            }
+    .home {
+        float: left;
+        border: 2px solid #c1c8cb;
+        border-radius: 15px;
+        padding: 1px 10px;
+        margin-left: 20px;
+    }
+
+.logo_bg {
+    background: url("../images/img/bg_logo.png") no-repeat 0 0;
+    width: 100%;
+    height:237px;
+}
+    .logo {
+        position: relative;
+        width: 261px;
+        height:115px;
+        top:52px;
+    }
+
+.box_shadow {
+    background-image: linear-gradient(180deg, #4d5663 0%, #3a4046 20%, #2a2e32 21%, #010101  100%);
+    border-radius: 5px;
+    box-shadow: 3px 5px 10px 0 #50525e;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    padding: 5px 0;
+}
+
+    nav {
+        float: left;
+    }
+        nav ul li {
+            float: left;
+            font-family: "Lucida Sans Unicode";
+        }
+        nav ul li:first-child {
+            margin-left: 65px;
+        }
+        nav ul li a {
+            color: #b1bcc0;
+            display: block;
+            font-size: 0.78em;
+            text-decoration: none;
+            text-transform: uppercase;
+            padding: 5px 18px;
+        }
+        nav ul li a:hover {
+            background: linear-gradient(180deg, #1f6787 0%, #0c3357 100%);
+            border-radius: 15px;
+            color: #fff;
+        }
+    .busket {
+        float: right;
+        margin-right: 10px;
+    }
+        .busket div {
+            float: left;
+            color: #929b9f;
+            font-family: Arial;
+            font-size: 0.7em;
+            margin-left: 10px;
+        }
+        .busket div.busket_price {
+            padding: 5px;
+        }
+            .busket div span {
+                color: #0d5a8f;
+            }
+
+.wheels {
+    padding: 0 5px 10px 5px;
+    box-sizing: border-box;
+}
+    .head_weels {
+
+
+        color: #154468;
+    }
+    .head_weels span {
+        font-size: 1.25em;
+    }
+    .tyre_and_disk {
+        float: left;
+        border: 2px solid #b8b8b9;
+        border-radius: 15px;
+        box-shadow: 2px 2px 7px 0 #50525e;
+        height: 135px;
+        width: 415px;
+    }
+        .tyre_and_disk>div {
+            margin: 2px 20px 7px 20px;
+            font-family: "Arial Black";
+            font-size: 0.625em;
+        }
+        .tyre_and_disk>div span {
+            margin: 0 70px;
+            font-size: 1.25em;
+        }
+    .tyre {
+        float: left;
+        border: 2px solid #b8b8b9;
+        border-radius: 15px;
+        box-shadow: 2px 2px 7px 0 #50525e;
+        height: 135px;
+        margin-left: 5px;
+        width: 193px;
+    }
+    .tyre>div span {
+        margin: 2px 10px;
+        font-family: "Arial Black";
+        font-size: 0.75em;
+    }
+
+    .disk {
+        float: left;
+        border: 2px solid #b8b8b9;
+        border-radius: 15px;
+        box-shadow: 2px 2px 7px 0 #50525e;
+        height: 135px;
+        margin-left: 5px;
+        width: 268px;
+    }
+    .disk>div span {
+        margin: 2px 10px;
+        font-family: "Arial Black";
+        font-size: 0.75em;
+
+    }
+.tyre_and_disk form, .tyre form, .disk form {
+    font-family: Arial;
+    font-size: 0.625em;
+    line-height: 0.8;
+    overflow: hidden;
+}
+    .form_left {
+        float: left;
+        height: 82px;
+        width: 177px;
+        margin: 0 15px;
+    }
+    .form_right {
+        float: left;
+        height: 82px;
+        width: 177px;
+        margin: 0 15px;
+    }
+        .form_left select, .form_right select {
+            width: 100px;
+            margin-bottom: 3px;
+            border: none;
+            box-shadow: inset 2px 2px 2px 0 #9f9f9f;
+        }
+        .form_left .year_of_release select {
+            width: 70px;
+            margin-right: 30px;
+        }
+        .form_right .year_of_release select {
+            width: 70px;
+            margin-right: 30px;
+        }
+        .form_left .select div:first-child, .form_right .select div:first-child {
+             float: left;
+        }
+
+        .form_left .select div:last-child, .form_right .select div:last-child {
+            float: right;
+        }
+
+            .text_for_avto1, .text_for_avto4 {
+                margin-top: 6px;   
+            }
+                .text_for_avto1 span {
+                    color: #77858b;
+                    font-size: 0.9em;
+                }
+                .text_for_avto2 p:last-child {
+                    color: #77858b;
+                    font-size: 0.9em;
+                }
+                .text_for_avto3 p:last-child {
+                    color: #77858b;
+                    font-size: 0.9em;
+                }
+    div.search {
+        text-align: right;
+    }
+
+    div.search input {
+        border:none;
+        border-bottom: 1px solid;
+        background: none;
+        padding: 0;
+        margin: 7px 15px 0 0;
+        color: #154467;
+        font-size: 1.4em;
+        font-family: Arial;
+        font-style: italic;
+        cursor: pointer;
+    }
+    .tyre>div {
+        margin-bottom: 5px;
+    }
+
+    .tyre form {
+        font-family: Arial;
+        font-size: 0.625em;
+        line-height: 0.8;
+        margin-left: 15px;
+        overflow: hidden;
+    }
+        .tyre select {
+            border: none;
+            box-shadow: inset 2px 2px 2px 0 #9f9f9f;
+        }
+    .size_type {
+        margin-bottom: 5px;
+    }
+        .size_type div {
+            float: left;
+            margin-right: 10px;
+        }
+        .size_type div:first-child {
+            padding-top: 3px;
+        }
+        .slash {
+            font-size: 1.5em;
+        }
+        .r {
+            display: table;
+            margin: 0 auto 5px auto;
+        }
+        .r div {
+                float: left;
+            }
+                div.r_head {
+                    font-size: 1.5em;
+                    padding-top: 3px;
+                    margin-right: 5px;
+                }
+            .season_block, .checkbox {
+                float: left;
+            }
+                .season_block {
+                    padding-top: 3px;
+                    margin-right: 15px;
+                }
+                .checkbox {
+                    text-transform: uppercase;
+                }
+                .checkbox .s {
+                    padding-top: 3px;
+                }
+                .checkbox input {
+                    margin: 0 5px 0 0;
+                }
+                    .summer>div, .winter>div, .allseason>div {
+                        float: left;
+                    }
+                    .top_search input {
+                        margin-top: 2px !important;
+                    }
+
+
+    .disk>div {
+        margin-bottom: 5px;
+    }
+        .block_form {
+            margin-top: 4px;
+            font-size: 1.2em;
+        }
+        .left_disk {
+            float: left;
+            width: 158px;
+            margin: 0 10px;
+        }
+            .search_d {
+                font-family: "Arial Black";
+
+            }
+            .left_disk select {
+                border: none;
+                box-shadow: inset 2px 2px 2px 0 #9f9f9f;
+            }
+            .left_disk .select div:first-child {
+                float: left;
+            }
+            .left_disk .select div:last-child {
+                float: right;
+            }
+        .right_disk {
+            float: right;
+            width: 70px;
+            border-left: 1px solid #77858b;
+            padding-left: 14px;
+        }
+            .right_disk>div {
+                margin-bottom: 3px;
+            }
+            .right_disk select {
+                border: none;
+                box-shadow: inset 2px 2px 2px 0 #9f9f9f;
+                height: 16px;
+            }
+            .right_disk p {
+                /*font-family: Arial; */
+                line-height: 0.8;
+            }
+            .right_disk p span {
+                font-size: 0.7em;
+                line-height: 0.5;
+                color: #77858b;
+            }
+                .margin_b {
+                    margin-bottom: 3px;
+                }
+                .d_guantity {
+                    margin-top: 5px;
+                }
+                .d_select {
+                    margin-top: 10px;
+                }
+.block_center .aside_left, section, .aside_right {
+    float: left;
+}
+    .aside_left, .aside_right {
+        width: 180px;
+        font-family: "Lucida Sans Unicode";
+    }
+        .aside_left header, .aside_right header {
+            border: 1px solid #8b979c;
+            border-radius: 15px;
+            box-shadow: 1px 1px 4px 0;
+            margin: 10px 0 15px 0;
+        }
+            .aside_left header div, .aside_right header div {
+                display: table;
+                float: left;
+                font-size: 0.8em;
+            }
+                .aside_left header div:first-child, .aside_right header div:first-child {
+                    margin: 2px 0 1px 3px;
+                }
+                .aside_left header div:last-child {
+                    padding-top: 7px;
+                    margin-left: 3px;
+                    color: #0c3256;
+                }
+                .aside_right header div.brend {
+                    color: #0c3256;
+                    font-size: 0.875em;
+                    padding-top: 6px;
+                    margin-left: 3px;
+                }
+
+            aside .head_cat {
+                border: 1px solid #8b979c;
+                border-radius: 15px;
+                width: 150px;
+                margin-bottom: 5px;
+            }
+                aside .head_cat div {
+                    display: table;
+                    float: left;
+                    font-size: 0.875em;
+                }
+                        aside .head_cat div:first-child {
+                            margin: 2px 0 0 3px;
+                        }
+                        aside .head_cat div:last-child {
+                            padding-top: 7px;
+                            margin-left: 3px;
+                            color: #0c3256;
+                        }
+                 .aside_left ul {
+                     margin-left: 25px;
+                 }
+                    .aside_left ul li {
+                        font-size: 0.8em;
+                        color: #0c3256;
+                        margin-bottom: 13px;
+                    }
+                    .aside_left ul li:hover  {
+                        font-style: italic;
+                        color: #0c3256;
+                        font-family: Arial;
+                        font-weight: 600;
+                        text-decoration: underline;
+                    }
+                    .aside_left ul li::before {
+                        content: url("../images/img/kegl.png");
+                        margin-right: 5px;
+                    }
+                    .aside_left ul li:hover::before {
+                        content: url("../images/img/kegl_durk.png");
+                        margin-right: 5px;
+                    }
+                        .aside_left ul li:last-child {
+                            margin-bottom: 5px;
+                        }
+                        .aside_left ul li a {
+                            margin-left: 0;
+                            padding-left: 0;
+                            text-decoration: none;
+                            color: #0c3256;
+                        }
+
+            .aside_right div.block_brend {
+                font-size: 0.8em;
+                color: #0c3256;
+            }
+                .aside_right .br div {
+                    display: table;
+                    float: left;
+                }
+                    .aside_right .br div:first-child input {
+                        margin: 0 10px 13px 10px;
+                    }
+
+            .sub input {
+                display: table;
+                color: #e5e9ea;
+                border: none;
+                border-radius: 15px;
+                text-transform: uppercase;
+                font-size: 0.7em;
+                padding: 6px 12px;
+                background: linear-gradient(180deg, #1f6585 0%, #0d3458 100%);
+                margin-left: 10px;
+            }
+
+    section {
+        background: linear-gradient(180deg, #e5e7e8 0%, #93a7b0 100%);
+        border-radius: 5px;
+        margin: 10px 10px;
+        height: 627px;
+        width: 526px;
+    }
+        .brend_wheels {
+            margin: 15px 25px 20px 25px;
+        }
+            .brend_wheels div h2 {
+                color: #206988;
+                font-size: 0.92em;
+                margin-bottom: 2px;
+                font-family: "Lucida Sans Unicode";
+            }
+            .brend_wheels div h3 {
+                color: #1f2528;
+                font-size: 0.79em;
+                margin-bottom: 2px;
+                font-family: "Lucida Sans Unicode";
+            }
+            .brend_wheels div p {
+                color: #114165;
+                font-size: 1em;
+                font-family: Arial;
+                font-style: italic;
+                font-weight: bold;
+                margin-top: 5px;
+            }
+                .brend_wheels div p span {
+                    font-size: 0.75em;
+                }
+
+            .goodyear, .nokian, .hankook {
+                float: left;
+                text-align: center;
+            }
+            .nokian {
+                margin: 0 28px;
+            }
+                .wheels_img {
+                    background: #fff;
+                    border: 1px solid #a7b1b4;
+                    border-radius: 5px;
+                    width: 138px;
+                    height: 128px;
+                    padding-top: 4px;
+                    box-sizing: border-box;
+                }
+
+    .tyre_marks {
+        width: 674px;
+        margin: 20px auto;
+    }
+        .tyre_marks ul li {
+            float: left;
+        }
+            .tyre_marks ul li a {
+                display: block;
+                padding: 5px 5px;
+            }
+
+    footer {
+        background: #213a4d;
+        text-align: center;
+        padding-bottom: 48px;
+        margin-bottom: 10px;
+    }
+        .footer_nav {
+            width: 300px;
+            margin: 0 auto;
+        }
+            .footer_nav ul li {
+                float: left;
+                margin: 10px 0 15px 0;
+                border-right: 1px solid #bec6c9;
+            }
+            .footer_nav ul li a {
+                color: #bec6c9;
+                font-size: 0.75em;
+                font-family: Arial;
+                text-decoration: none;
+                display: block;
+                padding: 0 10px;
+            }
+            .footer_nav ul li:last-child {
+                border-right: none;
+            }
+            .footer_nav ul li a:hover {
+                color: #52abcb;
+            }
+        footer p {
+            color: #7f4740;
+            font-size: 0.625em;
+            font-family:Arial;
+        }
+
+
+ .conteiner1 {
+     position: relative;
+     min-height: 125px;
+ }
+    .left {
+        position: absolute;
+        background: blue;
+    }
+    .main_block {
+        padding: 0 271px 0 271px;
+    }
+
+    .right {
+        position: absolute;
+        background: red;
+        right: 0;
+        top:0;
+    }
+
+ .cont {
+     width: 100%;
+     height: 600px;
+     position: relative;
+     top:0;
+     bottom: 0;
+     left: 0;
+     right: 0;
+ }
+    .left_cont {
+        position: absolute;
+        background: yellow;
+        left:0;
+        bottom: 0;
+        top:0;
+        right: 75%;
+    }
+    .top_cont {
+        position: absolute;
+        background: red;
+        left: 25%;
+        right: 0;
+        bottom: 50%;
+        top:0;
+    }
+    .bottom_cont {
+        position: absolute;
+        background: blue;
+        left: 25%;
+        right: 0;
+        bottom: 0;
+        top:50%;
+    }
+
+
+
+.cont_flex {
+    display: flex;
+}
+    .flex1 {
+        border: 1px solid red;
+        flex:1;
+    }
+    .flex2 {
+        border: 1px solid red;
+        flex:1;
+    }
+    .flex3 {
+        border: 1px solid red;
+        flex: 1;
+    }
+
+
+.contai {
+    display: flex;
+}
+    .nav1 {
+        width: 500px;
+    }
+    .flex_column {
+        display: flex;
+    }
+    .flex_column1 {
+        flex: 1;
+    }
+    .flex_column2 {
+        flex: 1;
+    }
